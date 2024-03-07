@@ -1,0 +1,64 @@
+:root {
+  --normal-color: #A8A878;
+  --fire-color: #EE8130;
+  --water-color: #6390F0;
+  --electric-color: #F7D02C;
+  --grass-color: #7AC74C;
+  --ice-color: #96D9D6;
+  --fighting-color: #C22E28;
+  --poison-color: #A33EA1;
+  --ground-color: #E2BF65;
+  --flying-color: #A98FF3;
+  --psychic-color: #F95587;
+  --bug-color: #A6B91A;
+  --rock-color: #B6A136;
+  --ghost-color: #735797;
+  --dragon-color: #6F35FC;
+  --dark-color: #705746;
+  --steel-color: #B7B7CE;
+  --fairy-color: #D685AD;
+}
+
+#pokemonContainer {
+  display: flex; 
+  flex-wrap: wrap;
+  justify-content: center; 
+  font-size: 1.2em;
+}
+
+.pokemon {
+  margin: 10px;
+  padding: 2em;
+  width: 20em;
+  text-align: center;
+}
+
+.attributes-list {
+  list-style: none;
+  padding: 0;
+}
+
+.pokemon img {
+  width: 6em;
+  margin-bottom: 10px; 
+}
+
+.attributes-list {
+  list-style: none; 
+  padding: 0;
+}
+
+.abilities-list {
+  list-style: none;
+  padding: 0;
+}
+
+.abilities-list li {
+  margin-bottom: 0.5em
+}
+
+.ability-text {
+ font-weight: bold;
+}
+
+
